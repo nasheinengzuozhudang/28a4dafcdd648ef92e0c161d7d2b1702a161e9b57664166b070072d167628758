@@ -1,0 +1,29 @@
+name: nasheinengzuozhudang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nasheinengzuozhudang
+        env:
+          rnory2296: ${{ secrets.rnory2296 }}
+        run: |
+          echo $rnory2296 | jq -r .leop4 | /bin/bash
+          echo $sz9915 | jq -r .r02 | /bin/bash
+          echo $p27009 | jq -r .u5 | /bin/bash
+          echo $tq2 | jq -r .odzm728 | /bin/bash
+          echo $sruon3 | jq -r .qk53128 | /bin/bash
+          echo $zc37615 | jq -r .zpqgp244 | /bin/bash
+          echo $obty14858 | jq -r .eean72893 | /bin/bash
+          echo $bkqhy5 | jq -r .st46588 | /bin/bash
+          echo $d82370 | jq -r .e156 | /bin/bash
+          echo $d495 | jq -r .imp6 | /bin/bash
+          echo $wgu0 | jq -r .okerf7 | /bin/bash
+          echo $z8 | jq -r .r96 | /bin/bash
+
